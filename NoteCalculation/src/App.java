@@ -6,9 +6,8 @@ public class App {
         // Our variables.
         int class1, class2, class3, class4;
 
-        try (
-                // Define the Scanner func.
-                Scanner inp = new Scanner(System.in)) {
+        // Define the Scanner func.
+        try (Scanner inp = new Scanner(System.in)) {
             // Take classes.
             System.out.print("Write here your Class notes:\n");
             class1 = inp.nextInt();
