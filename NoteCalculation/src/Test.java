@@ -25,11 +25,8 @@ public class Test {
         System.out.println("Here is your average note : " + reasult);
 
         // Calculate pass or fail.
-        if (reasult >= 50) {
-            System.out.println("You passed.");
-        } else {
-            System.out.println("You failed.");
-        }
+        String passOrFail = (reasult > 50) ? "You passed." : "You failed.";
+        System.out.println(passOrFail);
 
     }
 }
