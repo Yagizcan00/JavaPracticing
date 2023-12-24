@@ -33,5 +33,6 @@ public class App {
 
         // Show the total price.
         System.out.println("\nThere is your total price for your bought = " + totalPrice + "\n");
+        
     }
 }
